@@ -1,0 +1,174 @@
+/*首页的css*/
+	em{
+		font-style: normal;
+	}
+	.f-swiper {
+		width: 100%;
+		height: 450px;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
+	}
+	.first-hot-sell {
+		width: 1280px;
+		height: 142px;
+		margin: 10px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	/*礼拜五*/
+	.first-firday {
+		width: 1220px;
+		padding: 30px;
+		height: 40px;
+		background-color: #ebffe8;
+		margin: 1px auto;
+		position: relative;
+		border-bottom: 1px solid #498e3d;
+	}
+	
+	.first-firday span {
+		display: inline-block;
+	}
+	.first-firday .sp1 {
+		font-size: 25px;
+		color: #498e3d;
+		margin: 0 15px;
+	}
+	.first-firday .sp2 {
+		color: #afb4ae;
+		font-size: 22px;
+	}
+	.first-firday-settime {
+		display: inline-block;
+		width: 500px;
+		height: 40px;
+		font-size: 20px;
+		margin-left: 500px;
+		line-height: 40px;
+		color: #f08200;
+	}
+	.sp3 {
+		font-size: 25px;
+		color: #498e3d;
+	}
+	.first-firday-settime em {
+		display: inline-block;
+		width: 60px;
+		height: 40px;
+		background-color: #f08200;
+		border-radius: 5px;
+		color: white;
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+		margin: 0 4px;
+	}
+	.sp4 {
+		color: #498e3d;
+		margin-left: 10px;
+	}
+	/*礼拜五下面的图片*/
+	.first-firdayPic,.first-fruitPic {
+		width: 1280px;
+		margin: 0 auto;
+		display: inline-block;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.first-firdayPic div,.first-fruitPic div {
+		display: inline-block;
+		width: 297px;
+		height: 430px;
+		font-size: 18px;
+		text-align: center;
+		margin-right: 27px;
+		border: 1px solid lightgray;
+	}
+	.first-firdayPic div:hover,.first-fruitPic div:hover{
+		border: 1px solid lightgreen;
+	}
+		.first-firdayPic div:nth-child(4){
+			margin-right: 0px;
+	}
+	.first-fruitPic div:nth-child(4){
+			margin-right: 0px;
+	}
+	.first-firdayPic img {
+		display: block;
+		margin: 50px auto;
+		height: 187px;
+		width: 237px;
+	}
+	.first-goods-name {
+		display: block;
+		font-size: 18px;
+		color: #5a5a5a;
+	}
+	.first-goods-num {
+		display: block;
+		font-size: 18px;
+		color: #838383;
+		margin-top: 10px;
+		margin-bottom: 18px;
+	}
+	.first-firday-prize1 {
+		font-size: 18px;
+		color: #f08200;
+	}
+	
+	.first-firday-prize2 {
+		color: #ff5757;
+	}
+	.sp5 {
+		display: inline-block;
+		position: absolute;
+		right: 30px;
+		color: #498e3d;
+		top: 50px;
+	}
+	/*水果下面的图片*/
+	.first-fruit-pic{
+		display: block;
+		margin: 50px auto;
+		height: 187px;
+		width: 237px;
+	}
+	.first-pic-information{
+		display: inline-block;
+		width: 270px;
+		height: 128px;
+		padding: 0 15px;
+		text-align: start;
+		position: relative;
+	}
+	.first-fruit-name{
+		display: block;
+		line-height: 48px;
+		color: #333333;
+	}
+	.first-fruit-intro{
+		display: block;
+		margin-bottom: 15px;
+		color: #666666;
+		font-size: 14px;
+	}
+	.first-now-prize{
+		color: #ff5757;
+	}
+	.first-used-prize{
+		display: inline-block;
+		font-size: 14px;
+		text-decoration: line-through;
+		color: #666666;
+		margin-left: 10px;
+	}
+	.shoping-car .first-shop-pic{
+		display: inline-block;
+		width: 34px;
+		height: 30px;
+      position: absolute;
+        right: 20px;
+        bottom: -30px;
+	}
